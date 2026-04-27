@@ -50,16 +50,6 @@ The script (`scripts/estimate_cost.py`) contains a `MODEL_PRICING` map keyed by 
 
 Add your video link here: VIDEO_LINK_HERE
 
-Replace `VIDEO_LINK_HERE` with the URL of your demo video.
+https://youtu.be/5IYmN-CzWrw
 
 ---
-
-帮我补充（简短中文说明）
-
-这个工具用于根据输入和输出的 token 数量，快速估算使用特定模型的费用。使用方法非常简单：在仓库根目录运行上面的命令，脚本会返回 JSON 格式的费用结果。注意，目前价格写死在脚本里，且结果保留 4 位小数，单 token 的费用可能会四舍五入为 0。若需要我可以：
-
-- 帮你把价格换成从网络读取（需注意离线/凭证问题）
-- 把输出精度提高到 6 位或更多
-- 批量计算多模型/多场景并导出 CSV
-
-如需我代为更新或扩展，告诉我你想要的改动。
